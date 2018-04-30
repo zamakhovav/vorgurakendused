@@ -1,0 +1,313 @@
+html {
+  box-sizing:border-box
+}
+
+html,body,h1,h2,h3,h4,h5 {
+  font-family: "Open Sans", sans-serif
+}
+
+body {
+  margin:0
+}
+
+img {
+  border-style:none
+}
+
+button,input,select,textarea {
+  font:inherit;
+  margin:0
+}
+
+/* End extract */
+html,body {
+  font-family:Verdana,sans-serif;
+  font-size:15px;
+  line-height:1.5
+}
+
+/* Font */
+h1 {
+  font-size:36px
+}
+
+h2 {
+  font-size:30px
+}
+
+h3 {
+  font-size:24px
+}
+
+h4 {
+  font-size:20px
+}
+
+h5 {
+  font-size:18px
+}
+
+h6 {
+  font-size:16px
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family:"Segoe UI",Arial,sans-serif;
+  font-weight:400;
+  margin:10px 0
+}
+
+hr {
+  border:0;
+  border-top:1px solid #eee;
+  margin:20px 0
+}
+
+.w3-image {
+  max-width:100%;
+  height:auto
+}
+
+img {
+  margin-bottom:-5px
+}
+
+/*Buttons are fancy*/
+.w3-btn,.w3-button {
+  border:none;
+  display:inline-block;
+  outline:0;
+  padding:8px 16px;
+  vertical-align:middle;
+  overflow:hidden;
+  text-decoration:none;
+  color:inherit;
+  background-color:inherit;
+  text-align:center;
+  cursor:pointer;
+  white-space:nowrap
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 36px;
+  padding: 1rem;
+}
+
+.error {
+  width: 92%;
+  margin: 0px auto;
+  padding: 10px;
+  border: 1px solid #a94442;
+  color: #a94442;
+  background: #f2dede;
+  text-align: left;
+}
+
+.content {
+  width: 92%;
+  margin: 0px auto;
+  padding: 10px;
+}
+
+.success {
+  width: 92%;
+  margin: 0px auto;
+  padding: 10px;
+  border: 1px solid #B8C4DE;
+  text-align: center;
+  color: #3c763d;
+  background: #dff0d8;
+  border: 1px solid #3c763d;
+}
+
+/*Footer in footer*/
+.w3-panel:after,.w3-panel:before,.w3-row:after,.w3-row:before,.w3-row-padding:after,.w3-row-padding:before,
+.w3-cell-row:before,.w3-cell-row:after,.w3-clear:after,.w3-clear:before,.w3-bar:before,.w3-bar:after {
+  content:"";
+  display:table;
+  clear:both
+}
+
+/*Центр-блок в центре*/
+.w3-col,.w3-half,.w3-third,.w3-twothird,.w3-threequarter,.w3-quarter {
+  float:left;
+  width:100%
+}
+
+/*Расположение всего контента по блокам*/
+@media (min-width:601px) {
+  .w3-col.m1 {
+    width:8.33333%
+  }
+
+  .w3-col.m2 {
+    width:16.66666%
+  }
+
+  .w3-col.m3,.w3-quarter {
+    width:24.99999%
+  }
+
+  .w3-col.m4,.w3-third {
+    width:33.33333%
+  }
+
+  .w3-col.m5 {
+    width:41.66666%
+  }
+  .w3-col.m6,.w3-half {
+    width:49.99999%
+  }
+
+  .w3-col.m7 {
+    width:58.33333%
+  }
+
+  .w3-col.m8,.w3-twothird {
+    width:66.66666%
+  }
+
+  .w3-col.m9,.w3-threequarter {
+    width:74.99999%
+  }
+
+  .w3-col.m10 {
+    width:83.33333%
+  }
+
+  .w3-col.m11 {
+    width:91.66666%
+  }
+  .w3-col.m12 {
+    width:99.99999%
+  }
+}
+
+/*Весь контент немного свиднут вправа*/
+.w3-content {
+  max-width:980px;
+  margin:auto
+}
+
+/*Девочка в меню на каталоге*/
+@media (min-width:993px) {
+  .w3-modal-content {
+    width:900px
+  }
+
+  .w3-hide-large {
+    display:none!important
+  }
+
+  .w3-sidebar.w3-collapse {
+    display:block!important
+  }
+}
+
+
+
+/*Посты находяться сразу под меню*/
+.w3-top {
+  position:fixed;
+  width:100%;
+  z-index:1
+}
+
+/*Меню на самом вверху*/
+.w3-top {
+  top:0
+}
+
+/*Отступы всей страницы вправа*/
+.w3-row-padding,.w3-row-padding>.w3-half,.w3-row-padding>.w3-third,.w3-row-padding>.w3-twothird,.w3-row-padding>.w3-threequarter,.w3-row-padding>.w3-quarter,.w3-row-padding>.w3-col{padding:0 8px}
+.w3-container,.w3-panel {
+  padding:0.01em 16px
+}
+
+/*Отделение всех частей сайта: информация пользователя, добавить пост, посты*/
+.w3-card,.w3-card-2 {
+  box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)
+}
+
+/*Прозрачность текста: URLlink:*/
+.w3-opacity,.w3-hover-opacity:hover {
+  opacity:0.60
+}
+
+/*Меню больше размером*/
+.w3-large {
+  font-size:18px!important
+}
+
+/*Аватар пользователя по центру*/
+.w3-center {
+  text-align:center!important
+}
+
+.input-group-reg {
+  margin: 10px 0px 10px 0px;
+}
+
+.input-group-reg label {
+  display: block;
+  text-align: center;
+  margin: 2px;
+}
+
+.input-group-reg input {
+  height: 30px;
+  width: 50%;
+  padding: 5px 10px;
+  font-size: 16px;
+  font:inherit;
+  margin:0;
+  border: 1px solid gray;
+}
+
+/* Line in URL link and post*/
+.w3-border {
+  border:1px solid #ccc!important
+}
+
+/*Посты все отдельно*/
+.w3-margin {
+  margin:16px!important
+}
+
+ /*Отступ после лайк кнопки*/
+.w3-margin-bottom {
+  margin-bottom:16px!important
+}
+
+/*Отступы в меню направо*/
+.w3-margin-right {
+  margin-right:16px
+}
+
+.w3-margin-center {
+  margin: 10px;
+  display: inline-block;!important
+}
+
+/*Добавление поста с отступами*/
+.w3-padding {
+  padding:8px 16px!important
+}
+
+/*Отступы в меню*/
+.w3-padding-large {
+  padding:12px 24px!important
+}
+
+/*Девочка и время справа*/
+.w3-right {
+  float:right!important
+}
+
+/*Красивые кнопки*/
+.w3-button:hover {
+  color:#000!important;
+  background-color:#ccc!important
+}
